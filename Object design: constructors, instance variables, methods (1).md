@@ -29,10 +29,10 @@ SimpleLocation이라는 이름을 가진 클래스를 만든다!
 *  #### Methods  
     이 클래스가 할 수 있는 일  
     * Constructor   
-      새 객체를 만드는 메소드
-      `public SimpleLocation(double lat, double lon)`
-      이 메소드를 호출하는 것은 Java에게 데이터 타입이 SimpleLocation인 새 객체를 달라고 요청하는 것임
-      return type이 없으므로 public이라고만 씀
+      새 객체를 만드는 메소드 
+      `public SimpleLocation(double lat, double lon)`   
+      이 메소드를 호출하는 것은 Java에게 데이터 타입이 SimpleLocation인 새 객체를 달라고 요청하는 것임   
+      return type이 없으므로 public이라고만 씀    
 
 
 ```java
