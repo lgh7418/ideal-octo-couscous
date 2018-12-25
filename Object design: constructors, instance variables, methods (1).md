@@ -49,6 +49,7 @@ public class LocationTester {
   1) SimpleLocation 객체인 `ucsd`를 사용
   2) 객체 내의 distance 메소드를 불러옴
   3) lima의 위치가 저장된 변수 `lima`를 메소드에 전달
+  
       ```java
       public double distance(SimpleLocation other) {     
           return getDist(this.latitude, this.longitude, other.latitude, other.longitude);
