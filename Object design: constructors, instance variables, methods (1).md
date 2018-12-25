@@ -28,7 +28,7 @@ SimpleLocation이라는 이름을 가진 클래스를 만든다!
     이 클래스 내부에 있고 이 클래스에 정의된 메소드의 외부에 있는 변수  
 *  #### Methods  
     이 클래스가 할 수 있는 일  
-    * Constructor
+    * Constructor   
       새 객체를 만드는 메소드
       `public SimpleLocation(double lat, double lon)`
       이 메소드를 호출하는 것은 Java에게 데이터 타입이 SimpleLocation인 새 객체를 달라고 요청하는 것임
@@ -54,5 +54,5 @@ public class LocationTester {
           return getDist(this.latitude, this.longitude, other.latitude, other.longitude);
       }
       ```
-      `lima`는 이 메소드의 **파라미터** `other`에 저장되는 것!
+      `lima`는 이 메소드의 **파라미터** `other`에 저장되는 것!  
       `this`는 메소드를 호출한 객체를 나타내는 **키워드** (여기서는 ` ucsd`가 된다.) 
